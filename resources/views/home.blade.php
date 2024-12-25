@@ -254,8 +254,8 @@
                 const unsafeSqlInjection = data.unsafe_sql_injection || 'Не доступно';
 
                 const message = `
-                    <strong>1) Запит без sql інфекціями:</strong> ${executedQuery}<br>
-                    <strong>2) Запит з sql інфекціями:</strong> ${unsafeSqlInjection}<br>
+                    <strong>1) Запит без sql ін'єкцій:</strong> ${executedQuery}<br>
+                    <strong>2) Запит з sql Ін'єкцями:</strong> ${unsafeSqlInjection}<br>
 
                     Тут застосовуються параметризовані запити, в яких дані передаються як окремі аргументи, а не вбудовуються безпосередньо в SQL-код.
                     Це забезпечує захист від виконання небажаних дій, оскільки дані не можуть бути оброблені як SQL-код.
@@ -333,8 +333,8 @@
                     const unsafeSqlInjection = data.unsafe_sql_injection || 'Не доступно';
 
                     const message = `
-                    <strong>1) Запит без sql інфекціями:</strong> ${executedQuery}<br>
-                    <strong>2) Запит з sql інфекціями:</strong> ${unsafeSqlInjection}<br>
+                    <strong>1) Запит без sql ін'єкцій:</strong> ${executedQuery}<br>
+                    <strong>2) Запит з sql Ін'єкціями:</strong> ${unsafeSqlInjection}<br>
 
                     Тут застосовуються параметризовані запити, в яких дані передаються як окремі аргументи, а не вбудовуються безпосередньо в SQL-код.
                     Це забезпечує захист від виконання небажаних дій, оскільки дані не можуть бути оброблені як SQL-код.
@@ -391,8 +391,8 @@
                 const unsafeSqlInjection = data.unsafe_sql_injection || 'Не доступно';
 
                 const message = `
-                    <strong>1) Запит без sql інфекціями:</strong> ${executedQuery}<br>
-                    <strong>2) Запит з sql інфекціями:</strong> ${unsafeSqlInjection}<br>
+                    <strong>1) Запит без sql ін'єкцій:</strong> ${executedQuery}<br>
+                    <strong>2) Запит з sql Ін'єкціями:</strong> ${unsafeSqlInjection}<br>
 
                     Тут застосовуються параметризовані запити, в яких дані передаються як окремі аргументи, а не вбудовуються безпосередньо в SQL-код.
                     Це забезпечує захист від виконання небажаних дій, оскільки дані не можуть бути оброблені як SQL-код.
